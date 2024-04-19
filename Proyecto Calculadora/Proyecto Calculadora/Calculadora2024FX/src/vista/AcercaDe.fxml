@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AcercaDeController">
+   <children>
+      <Text fill="#30cd10" layoutX="117.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CALCULADORA UwU" textAlignment="CENTER" wrappingWidth="365.7294921875">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icon.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="369.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Santiago Bernal " wrappingWidth="216.7294921875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="241.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jose Chamorro Molina" wrappingWidth="279.7294921875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Realizado Por:" wrappingWidth="209.7294921875">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para:" wrappingWidth="183.7294921875">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#f53e34" layoutX="117.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1º DAM" textAlignment="CENTER" wrappingWidth="365.7294921875">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,137 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* estilos.css */
+
+/* Estilo de fondo para el contenedor principal */
+.fondo {
+    -fx-background-image: url("/vista/img/fondo.jpg");
+    -fx-background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+}
+/* Estilo para botón rojo */
+.boton-rojo {
+    -fx-background-color: #F44336; /* Rojo */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+.boton-rojo:hover {
+    -fx-background-color: #D32F2F; /* Rojo oscuro al pasar el mouse */
+}
+
+.boton-rojo:pressed {
+    -fx-background-color: #B71C1C; /* Rojo más oscuro al ser presionado */
+}
+
+/* Estilo para botón azul */
+.boton-azul {
+    -fx-background-color: #2196F3; /* Azul */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+.boton-azul:hover {
+    -fx-background-color: #1976D2; /* Azul oscuro al pasar el mouse */
+}
+
+.boton-azul:pressed {
+    -fx-background-color: #0D47A1; /* Azul más oscuro al ser presionado */
+}
+
+/* Estilos para los botones blancos */
+.boton-blanco {
+    -fx-background-color: #FFFFFF; /* Blanco */
+    -fx-text-fill: black; /* Texto negro */
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+/* Estilo para botón verde */
+.boton-verde {
+    -fx-background-color: #4CAF50; /* Verde */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+.boton-verde:hover {
+    -fx-background-color: #388E3C; /* Verde oscuro al pasar el mouse */
+}
+
+.boton-verde:pressed {
+    -fx-background-color: #1B5E20; /* Verde más oscuro al ser presionado */
+}
+
+/* Estilo para botón amarillo */
+.boton-amarillo {
+    -fx-background-color: #FFC107; /* Amarillo */
+    -fx-text-fill: black; /* Texto negro */
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+/* Estilo para botón gris claro */
+.boton-gris-claro {
+    -fx-background-color: #E0E0E0; /* Gris claro */
+    -fx-text-fill: black; /* Texto negro */
+	-fx-font-family: "Arial";
+    -fx-font-size: 16px;}
+
+/* Estilo para botón gris */
+.boton-gris {
+    -fx-background-color: #4B4B4B; /* Gris claro */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+/* Estilo para botón gris cuando se presiona */
+.boton-gris:pressed {
+    -fx-background-color: #383838; /* Gris más oscuro */
+}
+/* Estilo para botón gris cuando se pasa por encima */
+.boton-gris:hover {
+    -fx-background-color: #666666; /* Color de fondo más oscuro */
+}
+
+/* Estilo para arriba donde va lo de ver idioma etc */
+.boton-menu {
+    -fx-background-image: url("/vista/img/fondoArriba.jpg");
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+/* Estilo para botón menu */
+.boton-fecha {
+	-fx-background-color: linear-gradient(to right, #00E4FF,#00E4FF, #FFFFFF); /* Color de fondo más oscuro */
+    -fx-text-fill: Black; 
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+.boton-fecha2 {
+	-fx-background-color: #FFFFFF; 
+    -fx-text-fill: Black; 
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+.boton-santy {
+	
+    -fx-text-fill: White; 
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+.ayuda-fondo {
+	-fx-background-color: linear-gradient(to top, #FF0000 , #0000FF, #FFFF00); /* Color de fondo más oscuro */
+    -fx-text-fill: Black; 
+    -fx-font-family: "Arial";
+    -fx-font-size: 16px;
+}
+
+.letra-pantalla{
+	-fx-text-fill: Black; 
+    -fx-font-family: "Arial";
+    -fx-font-size: 30px;
+}
+
